@@ -4,8 +4,8 @@
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char ssid[] = "FPT - Nguyen An"; //War Machine
-char pass[] = "0962698659"; //21112003
+char ssid[] = "FPT - Nguyen An"; //Tên Wifi
+char pass[] = "0962698659"; //Mật khẩu Wifi
 WidgetLED led1(V0);
 unsigned long timeS=millis();
 #include <Wire.h>
